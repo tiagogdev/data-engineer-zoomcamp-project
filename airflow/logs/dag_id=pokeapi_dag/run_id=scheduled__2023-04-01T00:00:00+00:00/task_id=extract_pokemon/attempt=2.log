@@ -1,0 +1,24 @@
+[2023-04-03T10:11:52.657+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: pokeapi_dag.extract_pokemon scheduled__2023-04-01T00:00:00+00:00 [queued]>
+[2023-04-03T10:11:52.661+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: pokeapi_dag.extract_pokemon scheduled__2023-04-01T00:00:00+00:00 [queued]>
+[2023-04-03T10:11:52.661+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-03T10:11:52.662+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 2
+[2023-04-03T10:11:52.662+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-03T10:11:52.679+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): extract_pokemon> on 2023-04-01 00:00:00+00:00
+[2023-04-03T10:11:52.684+0000] {standard_task_runner.py:55} INFO - Started process 1304 to run task
+[2023-04-03T10:11:52.690+0000] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'pokeapi_dag', 'extract_pokemon', 'scheduled__2023-04-01T00:00:00+00:00', '--job-id', '493', '--raw', '--subdir', 'DAGS_FOLDER/pokebase_to_s3.py', '--cfg-path', '/tmp/tmpqd5vxf5n']
+[2023-04-03T10:11:52.693+0000] {standard_task_runner.py:83} INFO - Job 493: Subtask extract_pokemon
+[2023-04-03T10:11:52.744+0000] {task_command.py:388} INFO - Running <TaskInstance: pokeapi_dag.extract_pokemon scheduled__2023-04-01T00:00:00+00:00 [running]> on host 59f4bcb29cab
+[2023-04-03T10:11:52.797+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=pokeapi_dag
+AIRFLOW_CTX_TASK_ID=extract_pokemon
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-01T00:00:00+00:00
+[2023-04-03T10:12:48.167+0000] {local_task_job.py:272} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2023-04-03T10:12:48.169+0000] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 1304. PIDs of all processes in the group: [1304]
+[2023-04-03T10:12:48.169+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 1304
+[2023-04-03T10:12:48.170+0000] {taskinstance.py:1479} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-04-03T10:12:48.222+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1304, status='terminated', exitcode=0, started='11:11:52') (1304) terminated with exit code 0

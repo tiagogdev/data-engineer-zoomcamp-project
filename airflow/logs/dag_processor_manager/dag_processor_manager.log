@@ -1,0 +1,1648 @@
+[2023-03-30T17:43:59.456+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-03-30T17:43:59.457+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-03-30T17:43:59.458+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-03-30T17:43:59.459+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-30T17:43:59.479+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-30T17:44:29.706+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.17s          2023-03-30T17:44:29
+================================================================================
+[2023-03-30T17:45:00.825+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-30T17:45:00
+================================================================================
+[2023-03-30T17:45:01.877+0000] {manager.py:520} INFO - DAG pokemon_data_download is missing and will be deactivated.
+[2023-03-30T17:45:01.880+0000] {manager.py:530} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2023-03-30T17:45:01.896+0000] {manager.py:534} INFO - Deleted DAG pokemon_data_download in serialized_dag table
+[2023-03-30T17:45:31.970+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-30T17:45:31
+================================================================================
+[2023-03-30T17:45:33.503+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-31T16:11:58.330+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-03-31T16:11:58.331+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-03-31T16:11:58.332+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-03-31T16:11:58.334+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:11:58.375+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:12:28.482+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:12:28
+================================================================================
+[2023-03-31T16:12:59.746+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.17s          2023-03-31T16:12:59
+================================================================================
+[2023-03-31T16:13:30.902+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:13:30
+================================================================================
+[2023-03-31T16:14:02.021+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.06s          2023-03-31T16:14:02
+================================================================================
+[2023-03-31T16:14:33.135+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.06s          2023-03-31T16:14:33
+================================================================================
+[2023-03-31T16:15:04.247+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.06s          2023-03-31T16:15:04
+================================================================================
+[2023-03-31T16:15:35.371+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:15:35
+================================================================================
+[2023-03-31T16:16:06.500+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.06s          2023-03-31T16:16:06
+================================================================================
+[2023-03-31T16:16:18.971+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-31T16:16:18.971+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-31T16:16:19.166+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-31T16:17:31.867+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-03-31T16:17:31.868+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-03-31T16:17:31.869+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-03-31T16:17:31.870+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:17:31.902+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:18:02.101+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.17s          2023-03-31T16:18:02
+================================================================================
+[2023-03-31T16:18:33.226+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:18:33
+================================================================================
+[2023-03-31T16:19:02.625+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-31T16:19:02.625+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-31T16:23:48.672+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-03-31T16:23:48.673+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-03-31T16:23:48.674+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-03-31T16:23:48.675+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:23:48.707+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:24:18.921+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.17s          2023-03-31T16:24:18
+================================================================================
+[2023-03-31T16:24:50.045+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:24:50
+================================================================================
+[2023-03-31T16:25:21.164+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.06s          2023-03-31T16:25:21
+================================================================================
+[2023-03-31T16:25:52.278+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:25:52
+================================================================================
+[2023-03-31T16:26:23.400+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:26:23
+================================================================================
+[2023-03-31T16:26:54.513+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:26:54
+================================================================================
+[2023-03-31T16:27:25.636+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:27:25
+================================================================================
+[2023-03-31T16:27:56.751+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           0           1  30.07s          2023-03-31T16:27:56
+================================================================================
+[2023-03-31T16:28:27.240+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:28:27
+================================================================================
+[2023-03-31T16:28:48.696+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:28:48.736+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:28:57.701+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:28:57
+================================================================================
+[2023-03-31T16:29:28.119+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:29:28
+================================================================================
+[2023-03-31T16:29:58.369+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:29:58
+================================================================================
+[2023-03-31T16:30:28.478+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:30:28
+================================================================================
+[2023-03-31T16:30:58.501+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:30:58
+================================================================================
+[2023-03-31T16:31:28.575+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:31:28
+================================================================================
+[2023-03-31T16:31:58.747+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:31:58
+================================================================================
+[2023-03-31T16:32:28.983+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:32:28
+================================================================================
+[2023-03-31T16:33:00.164+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:33:00
+================================================================================
+[2023-03-31T16:33:30.445+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:33:30
+================================================================================
+[2023-03-31T16:33:48.772+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:33:48.799+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:34:00.707+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:34:00
+================================================================================
+[2023-03-31T16:34:30.965+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:34:30
+================================================================================
+[2023-03-31T16:35:01.209+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:35:01
+================================================================================
+[2023-03-31T16:35:32.249+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:35:32
+================================================================================
+[2023-03-31T16:36:02.516+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:36:02
+================================================================================
+[2023-03-31T16:36:32.669+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:36:32
+================================================================================
+[2023-03-31T16:37:02.900+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:37:02
+================================================================================
+[2023-03-31T16:37:33.885+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:37:33
+================================================================================
+[2023-03-31T16:38:04.002+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:38:04
+================================================================================
+[2023-03-31T16:38:34.830+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:38:34
+================================================================================
+[2023-03-31T16:38:49.037+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:38:49.066+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:39:05.280+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:39:05
+================================================================================
+[2023-03-31T16:39:35.483+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:39:35
+================================================================================
+[2023-03-31T16:40:05.632+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:40:05
+================================================================================
+[2023-03-31T16:40:35.972+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:40:35
+================================================================================
+[2023-03-31T16:41:06.967+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:41:06
+================================================================================
+[2023-03-31T16:41:37.589+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:41:37
+================================================================================
+[2023-03-31T16:42:08.064+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:42:08
+================================================================================
+[2023-03-31T16:42:38.727+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:42:38
+================================================================================
+[2023-03-31T16:43:09.307+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:43:09
+================================================================================
+[2023-03-31T16:43:39.770+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.20s           2023-03-31T16:43:39
+================================================================================
+[2023-03-31T16:43:49.303+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:43:49.331+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:44:10.308+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:44:10
+================================================================================
+[2023-03-31T16:44:40.667+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:44:40
+================================================================================
+[2023-03-31T16:45:11.156+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:45:11
+================================================================================
+[2023-03-31T16:45:41.819+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:45:41
+================================================================================
+[2023-03-31T16:46:12.483+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:46:12
+================================================================================
+[2023-03-31T16:46:42.880+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:46:42
+================================================================================
+[2023-03-31T16:47:13.498+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:47:13
+================================================================================
+[2023-03-31T16:47:44.160+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:47:44
+================================================================================
+[2023-03-31T16:48:14.926+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:48:14
+================================================================================
+[2023-03-31T16:48:45.003+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:48:45
+================================================================================
+[2023-03-31T16:48:50.048+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:48:50.078+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:49:16.114+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:49:16
+================================================================================
+[2023-03-31T16:49:46.781+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:49:46
+================================================================================
+[2023-03-31T16:50:17.221+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:50:17
+================================================================================
+[2023-03-31T16:50:47.463+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.31s           2023-03-31T16:50:47
+================================================================================
+[2023-03-31T16:51:18.137+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:51:18
+================================================================================
+[2023-03-31T16:51:49.007+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:51:49
+================================================================================
+[2023-03-31T16:52:19.115+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:52:19
+================================================================================
+[2023-03-31T16:52:49.840+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:52:49
+================================================================================
+[2023-03-31T16:53:20.772+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:53:20
+================================================================================
+[2023-03-31T16:53:51.042+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:53:51.069+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:53:51.482+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:53:51
+================================================================================
+[2023-03-31T16:54:21.802+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:54:21
+================================================================================
+[2023-03-31T16:54:51.944+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:54:51
+================================================================================
+[2023-03-31T16:55:22.536+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:55:22
+================================================================================
+[2023-03-31T16:55:53.028+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:55:53
+================================================================================
+[2023-03-31T16:56:23.600+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:56:23
+================================================================================
+[2023-03-31T16:56:54.441+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:56:54
+================================================================================
+[2023-03-31T16:57:25.327+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:57:25
+================================================================================
+[2023-03-31T16:57:55.988+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:57:55
+================================================================================
+[2023-03-31T16:58:26.078+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:58:26
+================================================================================
+[2023-03-31T16:58:51.380+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:58:51.413+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T16:58:57.156+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:58:57
+================================================================================
+[2023-03-31T16:59:27.912+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T16:59:27
+================================================================================
+[2023-03-31T16:59:58.574+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T16:59:58
+================================================================================
+[2023-03-31T17:00:29.235+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:00:29
+================================================================================
+[2023-03-31T17:00:59.925+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.31s           2023-03-31T17:00:59
+================================================================================
+[2023-03-31T17:01:30.466+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:01:30
+================================================================================
+[2023-03-31T17:02:01.133+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.31s           2023-03-31T17:02:01
+================================================================================
+[2023-03-31T17:02:31.444+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:02:31
+================================================================================
+[2023-03-31T17:03:02.165+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:03:02
+================================================================================
+[2023-03-31T17:03:32.549+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:03:32
+================================================================================
+[2023-03-31T17:03:51.663+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T17:03:51.696+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T17:04:02.551+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.31s           2023-03-31T17:04:02
+================================================================================
+[2023-03-31T17:04:33.542+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.31s           2023-03-31T17:04:33
+================================================================================
+[2023-03-31T17:05:04.204+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:05:04
+================================================================================
+[2023-03-31T17:05:34.680+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:05:34
+================================================================================
+[2023-03-31T17:06:04.776+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.31s           2023-03-31T17:06:04
+================================================================================
+[2023-03-31T17:06:35.480+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:06:35
+================================================================================
+[2023-03-31T17:07:05.889+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:07:05
+================================================================================
+[2023-03-31T17:07:36.368+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:07:36
+================================================================================
+[2023-03-31T17:08:07.168+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:08:07
+================================================================================
+[2023-03-31T17:08:37.946+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:08:37
+================================================================================
+[2023-03-31T17:08:51.896+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T17:08:51.923+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T17:09:08.599+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:09:08
+================================================================================
+[2023-03-31T17:09:39.263+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:09:39
+================================================================================
+[2023-03-31T17:10:09.923+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:10:09
+================================================================================
+[2023-03-31T17:10:40.686+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:10:40
+================================================================================
+[2023-03-31T17:11:11.139+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:11:11
+================================================================================
+[2023-03-31T17:11:41.490+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:11:41
+================================================================================
+[2023-03-31T17:12:12.139+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:12:12
+================================================================================
+[2023-03-31T17:12:42.799+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:12:42
+================================================================================
+[2023-03-31T17:13:13.461+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:13:13
+================================================================================
+[2023-03-31T17:13:43.857+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:13:43
+================================================================================
+[2023-03-31T17:13:52.331+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T17:13:52.362+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T17:14:14.082+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:14:14
+================================================================================
+[2023-03-31T17:14:44.878+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-03-31T17:14:44
+================================================================================
+[2023-03-31T17:15:15.348+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:15:15
+================================================================================
+[2023-03-31T17:15:46.212+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-03-31T17:15:46
+================================================================================
+[2023-03-31T17:16:16.993+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:16:16
+================================================================================
+[2023-03-31T17:16:47.635+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:16:47
+================================================================================
+[2023-03-31T17:17:17.691+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:17:17
+================================================================================
+[2023-03-31T17:17:48.489+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:17:48
+================================================================================
+[2023-03-31T17:18:19.560+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:18:19
+================================================================================
+[2023-03-31T17:18:50.094+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:18:50
+================================================================================
+[2023-03-31T17:18:52.660+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T17:18:52.688+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-03-31T17:19:20.590+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:19:20
+================================================================================
+[2023-03-31T17:19:51.345+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:19:51
+================================================================================
+[2023-03-31T17:20:21.359+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-03-31T17:20:21
+================================================================================
+[2023-03-31T17:20:51.876+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.30s           2023-03-31T17:20:51
+================================================================================
+[2023-03-31T17:21:15.114+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T08:49:39.407+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T08:49:39.408+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T08:49:39.409+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T08:49:39.410+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T08:49:39.447+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T08:49:40.299+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.81s           2023-04-03T08:49:40
+================================================================================
+[2023-04-03T08:59:03.389+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T08:59:03.561+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T08:59:03.562+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T08:59:03.563+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T08:59:03.564+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T08:59:03.598+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T08:59:04.122+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T08:59:04
+================================================================================
+[2023-04-03T09:01:30.885+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T09:01:31.009+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T09:01:31.010+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T09:01:31.011+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T09:01:31.012+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T09:01:31.043+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T09:01:31.568+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T09:01:31
+================================================================================
+[2023-04-03T09:04:01.269+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:11:50.421+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:11:50.422+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:11:50.423+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:11:50.424+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:11:50.454+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:11:51.105+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.61s           2023-04-03T10:11:51
+================================================================================
+[2023-04-03T10:12:51.922+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:12:52.180+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:12:52.181+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:12:52.183+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:12:52.184+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:12:52.222+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:12:52.760+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.41s           2023-04-03T10:12:52
+================================================================================
+[2023-04-03T10:14:57.263+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:14:57.434+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:14:57.435+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:14:57.436+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:14:57.437+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:14:57.481+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:14:57.909+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:14:57
+================================================================================
+[2023-04-03T10:15:28.615+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:15:28
+================================================================================
+[2023-04-03T10:15:58.652+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.41s           2023-04-03T10:15:58
+================================================================================
+[2023-04-03T10:16:29.088+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:16:29
+================================================================================
+[2023-04-03T10:16:59.623+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:16:59
+================================================================================
+[2023-04-03T10:17:29.882+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:17:29
+================================================================================
+[2023-04-03T10:18:01.171+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:18:01
+================================================================================
+[2023-04-03T10:18:31.520+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.52s           2023-04-03T10:18:31
+================================================================================
+[2023-04-03T10:19:01.808+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:19:01
+================================================================================
+[2023-04-03T10:19:08.121+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:19:58.042+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:19:58.044+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:19:58.045+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:19:58.047+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:19:58.097+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:19:58.959+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.81s           2023-04-03T10:19:58
+================================================================================
+[2023-04-03T10:22:28.723+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:22:28.846+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:22:28.847+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:22:28.848+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:22:28.849+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:22:28.879+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:22:29.403+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:22:29
+================================================================================
+[2023-04-03T10:25:59.904+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:26:00.030+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:26:00.031+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:26:00.032+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:26:00.033+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:26:00.063+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:26:00.488+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:26:00
+================================================================================
+[2023-04-03T10:26:31.261+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:26:31
+================================================================================
+[2023-04-03T10:27:02.614+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:27:02
+================================================================================
+[2023-04-03T10:27:33.526+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:27:33
+================================================================================
+[2023-04-03T10:28:04.356+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:28:04
+================================================================================
+[2023-04-03T10:28:34.993+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:28:34
+================================================================================
+[2023-04-03T10:29:06.280+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:29:06
+================================================================================
+[2023-04-03T10:29:37.185+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:29:37
+================================================================================
+[2023-04-03T10:30:08.618+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:30:08
+================================================================================
+[2023-04-03T10:30:39.818+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:30:39
+================================================================================
+[2023-04-03T10:32:46.355+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:32:46.480+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:32:46.481+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:32:46.482+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:32:46.483+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:32:46.516+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:32:47.040+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:32:47
+================================================================================
+[2023-04-03T10:33:17.597+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:33:17
+================================================================================
+[2023-04-03T10:33:48.722+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:33:48
+================================================================================
+[2023-04-03T10:34:19.376+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:34:19
+================================================================================
+[2023-04-03T10:34:50.766+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:34:50
+================================================================================
+[2023-04-03T10:35:21.701+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:35:21
+================================================================================
+[2023-04-03T10:35:52.928+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:35:52
+================================================================================
+[2023-04-03T10:36:24.072+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:36:24
+================================================================================
+[2023-04-03T10:36:54.959+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.60s           2023-04-03T10:36:54
+================================================================================
+[2023-04-03T10:37:25.666+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:37:25
+================================================================================
+[2023-04-03T10:37:46.493+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:37:46.524+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:37:56.864+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:37:56
+================================================================================
+[2023-04-03T10:38:27.252+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:38:27
+================================================================================
+[2023-04-03T10:38:57.371+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:38:57
+================================================================================
+[2023-04-03T10:39:27.500+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:39:27
+================================================================================
+[2023-04-03T10:39:57.562+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:39:57
+================================================================================
+[2023-04-03T10:40:29.062+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:40:29
+================================================================================
+[2023-04-03T10:40:59.693+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.41s           2023-04-03T10:40:59
+================================================================================
+[2023-04-03T10:41:30.595+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:41:30
+================================================================================
+[2023-04-03T10:42:01.141+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:42:01
+================================================================================
+[2023-04-03T10:42:31.583+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:42:31
+================================================================================
+[2023-04-03T10:42:47.064+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:42:47.092+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:43:02.210+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.41s           2023-04-03T10:43:02
+================================================================================
+[2023-04-03T10:43:32.217+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:43:32
+================================================================================
+[2023-04-03T10:44:02.938+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:44:02
+================================================================================
+[2023-04-03T10:44:34.080+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:44:34
+================================================================================
+[2023-04-03T10:45:05.019+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.61s           2023-04-03T10:45:05
+================================================================================
+[2023-04-03T10:49:57.161+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:49:57.326+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:49:57.327+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:49:57.328+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:49:57.329+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:49:57.359+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:49:57.882+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:49:57
+================================================================================
+[2023-04-03T10:53:17.082+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:53:17.208+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:53:17.209+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:53:17.209+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:53:17.211+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:53:17.242+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:53:17.665+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:53:17
+================================================================================
+[2023-04-03T10:56:28.813+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-03T10:56:28.980+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2023-04-03T10:56:28.981+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-04-03T10:56:28.982+0000] {manager.py:485} INFO - Checking for new files in /workspaces/data-engineer-zoomcamp-project/airflow/dags every 300 seconds
+[2023-04-03T10:56:28.983+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:56:29.015+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T10:56:29.541+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:56:29
+================================================================================
+[2023-04-03T10:56:59.813+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:56:59
+================================================================================
+[2023-04-03T10:57:30.778+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:57:30
+================================================================================
+[2023-04-03T10:58:00.865+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:58:00
+================================================================================
+[2023-04-03T10:58:31.147+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T10:58:31
+================================================================================
+[2023-04-03T10:59:02.036+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:59:02
+================================================================================
+[2023-04-03T10:59:33.008+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T10:59:33
+================================================================================
+[2023-04-03T11:00:04.478+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.50s           2023-04-03T11:00:04
+================================================================================
+[2023-04-03T11:00:35.231+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T11:00:35
+================================================================================
+[2023-04-03T11:01:06.094+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.40s           2023-04-03T11:01:06
+================================================================================
+[2023-04-03T11:01:30.026+0000] {manager.py:726} INFO - Searching for files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T11:01:30.067+0000] {manager.py:729} INFO - There are 1 files in /workspaces/data-engineer-zoomcamp-project/airflow/dags
+[2023-04-03T11:01:36.839+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/data-engineer-zoomcamp-project/airflow/dags/pokebase_to_s3.py                           1           0  0.61s           2023-04-03T11:01:36
+================================================================================
+[2023-04-03T11:01:37.577+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
