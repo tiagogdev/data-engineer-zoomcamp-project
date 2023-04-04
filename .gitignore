@@ -1,2 +1,4 @@
 airflow/.env
 airflow/logs/
+dbt/profiles.yml
+airflow/scripts/configuration.conf

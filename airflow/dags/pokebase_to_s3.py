@@ -66,7 +66,7 @@ def extract_pokemon():
         df = df.explode("types")
 
         csv_buffer = io.StringIO()
-        df.to_csv(csv_buffer)
+        df.to_csv(csv_buffer, index=False)
         csv_data = csv_buffer.getvalue().encode()
 
         s3.put_object(
@@ -105,7 +105,7 @@ def extract_generations():
             df = df.explode("pokemon_names")
 
             csv_buffer = io.StringIO()
-            df.to_csv(csv_buffer)
+            df.to_csv(csv_buffer, index=False)
             csv_data = csv_buffer.getvalue().encode()
 
             s3.put_object(
@@ -152,7 +152,7 @@ def extract_moves():
         )
 
         csv_buffer = io.StringIO()
-        df.to_csv(csv_buffer)
+        df.to_csv(csv_buffer, index=False)
         csv_data = csv_buffer.getvalue().encode()
 
         s3.put_object(
@@ -187,7 +187,7 @@ def extract_habitats():
         df = pd.DataFrame(habitat_list)
 
         csv_buffer = io.StringIO()
-        df.to_csv(csv_buffer)
+        df.to_csv(csv_buffer, index=False)
         csv_data = csv_buffer.getvalue().encode()
 
         s3.put_object(
@@ -227,7 +227,7 @@ def extract_base_stats():
         df = df.explode("base_stats")
 
         csv_buffer = io.StringIO()
-        df.to_csv(csv_buffer)
+        df.to_csv(csv_buffer, index=False)
         csv_data = csv_buffer.getvalue().encode()
 
         s3.put_object(
@@ -255,5 +255,6 @@ t4 = PythonOperator(
 t5 = PythonOperator(
     task_id="extract_base_stats", python_callable=extract_base_stats, dag=dag
 )
+
 
 t1 >> t2 >> t3 >> t4 >> t5
