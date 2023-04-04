@@ -6,3 +6,9 @@ notebooks/dags_tests.ipynb
 .vscode/settings.json
 airflow/dags/__pycache__/
 airflow/dags/__pycache__/pokebase_to_s3.cpython-310.pyc
+
+# Default .gitignore content added by dbt Cloud
+target/
+dbt_packages/
+logs/
+# end dbt Cloud content
