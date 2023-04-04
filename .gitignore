@@ -4,3 +4,5 @@ airflow/scripts/configuration.conf
 notebooks/dags_tests.ipynb
 .vscode/
 .vscode/settings.json
+airflow/dags/__pycache__/
+airflow/dags/__pycache__/pokebase_to_s3.cpython-310.pyc
