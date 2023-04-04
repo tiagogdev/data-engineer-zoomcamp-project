@@ -2,4 +2,5 @@ airflow/.env
 airflow/logs/
 airflow/scripts/configuration.conf
 notebooks/dags_tests.ipynb
-.vscode
+.vscode/
+.vscode/settings.json
