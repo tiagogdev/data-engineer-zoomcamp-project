@@ -7,6 +7,7 @@ import boto3
 import pandas as pd
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.operators.bash import BashOperator
 
 default_args = {
     "owner": "airflow",
@@ -94,7 +95,7 @@ def extract_generations():
                 generations.append(
                     {
                         "generation_name": generation["name"],
-                        "pokemon_names": pokemon_names,
+                        "pokemon_name": pokemon_names,
                     }
                 )
 
@@ -102,7 +103,7 @@ def extract_generations():
             df = pd.DataFrame(generations)
 
             # explode the "pokemon_names" column and select relevant columns
-            df = df.explode("pokemon_names")
+            df = df.explode("pokemon_name")
 
             csv_buffer = io.StringIO()
             df.to_csv(csv_buffer, index=False)
@@ -215,8 +216,8 @@ def extract_base_stats():
                 base_stats = [bs["stat"]["name"] for bs in pokemon_data["stats"]]
                 pokemon_dict = {
                     "id": pokemon_data["id"],
-                    "name": pokemon_data["name"],
-                    "base_stats": base_stats,
+                    "pokemon_name": pokemon_data["name"],
+                    "base_stat": base_stats,
                 }
                 pokemon_list.append(pokemon_dict)
 
@@ -224,7 +225,7 @@ def extract_base_stats():
         df = pd.DataFrame(pokemon_list)
 
         # explode the "base_stats" column and select relevant columns
-        df = df.explode("base_stats")
+        df = df.explode("base_stat")
 
         csv_buffer = io.StringIO()
         df.to_csv(csv_buffer, index=False)
@@ -240,21 +241,53 @@ def extract_base_stats():
         print(f"Error: HTTP status code {response.status_code}")
 
 
-t1 = PythonOperator(task_id="extract_pokemon", python_callable=extract_pokemon, dag=dag)
-
-t2 = PythonOperator(
-    task_id="extract_generations", python_callable=extract_generations, dag=dag
+pokemon_extract = PythonOperator(
+    task_id="extract_pokemon",
+    python_callable=extract_pokemon,
+    dag=dag,
 )
+pokemon_extract.doc_md = "Extract Pokemon Information from PokeAPI"
 
-t3 = PythonOperator(task_id="extract_moves", python_callable=extract_moves, dag=dag)
-
-t4 = PythonOperator(
-    task_id="extract_habitats", python_callable=extract_habitats, dag=dag
+generations_extract = PythonOperator(
+    task_id="extract_generations",
+    python_callable=extract_generations,
+    dag=dag,
 )
+generations_extract.doc_md = "Extract Pokemon Generations from PokeAPI"
 
-t5 = PythonOperator(
-    task_id="extract_base_stats", python_callable=extract_base_stats, dag=dag
+moves_extract = PythonOperator(
+    task_id="extract_moves",
+    python_callable=extract_moves,
+    dag=dag,
 )
+moves_extract.doc_md = "Extract Pokemon Moves from PokeAPI"
 
+habitats_export = PythonOperator(
+    task_id="extract_habitats",
+    python_callable=extract_habitats,
+    dag=dag,
+)
+habitats_export.doc_md = "Extract Pokemon Habitats from PokeAPI"
 
-t1 >> t2 >> t3 >> t4 >> t5
+base_stats_export = PythonOperator(
+    task_id="extract_base_stats",
+    python_callable=extract_base_stats,
+    dag=dag,
+)
+base_stats_export.doc_md = "Extract Pokemon Base Stats from PokeAPI"
+
+copy_to_redshift = BashOperator(
+    task_id="copy_to_redshift",
+    bash_command="python /workspaces/data-engineer-zoomcamp-project/airflow/scripts/upload_aws_redshift_etl.py",
+    dag=dag,
+)
+copy_to_redshift.doc_md = "Copy S3 CSV file to Redshift tables"
+
+(
+    pokemon_extract
+    >> generations_extract
+    >> moves_extract
+    >> habitats_export
+    >> base_stats_export
+    >> copy_to_redshift
+)

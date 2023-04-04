@@ -9,6 +9,7 @@ polars
 dbt-core
 dbt-bigquery
 dbt-postgres
+dbt-redshift
 pyspark
 confluent-kafka==1.9.2
 boto3==1.26.98

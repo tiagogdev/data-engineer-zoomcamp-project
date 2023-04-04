@@ -7,7 +7,8 @@
     "--max-line-length=240",
     "--disable=W0104",
     "--disable=W0105",
-    "--disable=broad-except"
+    "--disable=broad-except",
+    "--disable=W0621"
   ],
   "dbt.queryLimit": 500
 }
