@@ -202,7 +202,6 @@ def extract_habitats():
 
 
 def extract_base_stats():
-    # retrieve the data from the API
     url = "https://pokeapi.co/api/v2/pokemon?limit=10000"
     response = requests.get(url, timeout=1000)
     if response.status_code == 200:
@@ -213,19 +212,21 @@ def extract_base_stats():
             response = requests.get(pokemon_url, timeout=1000)
             if response.status_code == 200:
                 pokemon_data = response.json()
-                base_stats = [bs["stat"]["name"] for bs in pokemon_data["stats"]]
-                pokemon_dict = {
-                    "id": pokemon_data["id"],
-                    "pokemon_name": pokemon_data["name"],
-                    "base_stat": base_stats,
-                }
-                pokemon_list.append(pokemon_dict)
+
+                for bs in pokemon_data["stats"]:
+                    base_stats = bs["base_stat"]
+                    base_stats_names = bs["stat"]["name"]
+
+                    pokemon_dict = {
+                        "id": pokemon_data["id"],
+                        "pokemon_name": pokemon_data["name"],
+                        "base_stat_name": base_stats_names,
+                        "base_stat": base_stats,
+                    }
+                    pokemon_list.append(pokemon_dict)
 
         # create a DataFrame from the data
         df = pd.DataFrame(pokemon_list)
-
-        # explode the "base_stats" column and select relevant columns
-        df = df.explode("base_stat")
 
         csv_buffer = io.StringIO()
         df.to_csv(csv_buffer, index=False)

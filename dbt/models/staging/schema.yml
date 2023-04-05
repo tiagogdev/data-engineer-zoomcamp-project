@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+    - name: staging
+
+      # For aws:
+      database: pokemon_analytics
+
+      schema: staging
+      quoting:
+        database: true
+        schema: true
+        identifier: false
+      # loaded_at_field: record_loaded_at
+      tables:
+        - name: pokemon_info
+        - name: pokemon_moves
+        - name: pokemon_generations
+        - name: pokemon_habitats
+        - name: pokemon_base_stats
+
+         # freshness:
+           # error_after: {count: 6, period: hour}
