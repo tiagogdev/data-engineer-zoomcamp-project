@@ -61,13 +61,13 @@ def extract_generations() -> pd.DataFrame:
                     }
                 )
 
-            # create a DataFrame from the data
-            df = pd.DataFrame(generations)
+        # create a DataFrame from the data
+        df = pd.DataFrame(generations)
 
-            # explode the "pokemon_names" column and select relevant columns
-            df = df.explode("pokemon_name")
+        # explode the "pokemon_names" column and select relevant columns
+        df = df.explode("pokemon_name")
 
-            return df
+        return df
 
     else:
         print(f"Error: HTTP status code {response.status_code}")
