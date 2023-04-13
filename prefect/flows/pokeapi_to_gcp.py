@@ -1,44 +1,12 @@
-from datetime import datetime, timedelta
-import os
-import io
-from dotenv import load_dotenv
-import requests
-import boto3
+from pathlib import Path
 import pandas as pd
-from airflow import DAG
-from airflow.operators.python import PythonOperator
-from airflow.operators.bash import BashOperator
-
-default_args = {
-    "owner": "airflow",
-    "depends_on_past": False,
-    "start_date": datetime(2023, 3, 31),
-    "retries": 1,
-    "retry_delay": timedelta(minutes=5),
-}
-
-# Set DAG ID and schedule interval
-dag = DAG(
-    "pokeapi_dag",
-    default_args=default_args,
-    description="A DAG to extract data from the PokeAPI",
-    schedule_interval="@daily",
-)
+import requests
+from prefect_gcp.cloud_storage import GcsBucket
+from prefect import flow, task
 
 
-load_dotenv(override=True)
-
-aws_s3_bucket = os.getenv("AWS_S3_BUCKET")
-
-session = boto3.Session(
-    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-)
-
-s3 = session.client("s3")
-
-
-def extract_pokemon():
+@task(retries=3)
+def extract_pokemon() -> pd.DataFrame:
     # retrieve the data from the API
     url = "https://pokeapi.co/api/v2/pokemon?limit=10000"
     response = requests.get(url, timeout=1000)
@@ -66,20 +34,14 @@ def extract_pokemon():
         # explode the "types" column and select relevant columns
         df = df.explode("types")
 
-        csv_buffer = io.StringIO()
-        df.to_csv(csv_buffer, index=False)
-        csv_data = csv_buffer.getvalue().encode()
+        return df
 
-        s3.put_object(
-            Bucket=aws_s3_bucket,
-            Key="data/pokemon_info.csv",
-            Body=csv_data,
-        )
     else:
         print(f"Error: HTTP status code {response.status_code}")
 
 
-def extract_generations():
+@task(retries=3)
+def extract_generations() -> pd.DataFrame:
     # retrieve the data from the API
     url = "https://pokeapi.co/api/v2/generation?limit=10000"
     response = requests.get(url, timeout=1000)
@@ -105,20 +67,14 @@ def extract_generations():
             # explode the "pokemon_names" column and select relevant columns
             df = df.explode("pokemon_name")
 
-            csv_buffer = io.StringIO()
-            df.to_csv(csv_buffer, index=False)
-            csv_data = csv_buffer.getvalue().encode()
+            return df
 
-            s3.put_object(
-                Bucket=aws_s3_bucket,
-                Key="data/pokemon_generations.csv",
-                Body=csv_data,
-            )
     else:
         print(f"Error: HTTP status code {response.status_code}")
 
 
-def extract_moves():
+@task(retries=3)
+def extract_moves() -> pd.DataFrame:
     # Retrieve the data from the API
     response = requests.get("https://pokeapi.co/api/v2/move?limit=10000", timeout=1000)
     if response.status_code == 200:
@@ -152,20 +108,14 @@ def extract_moves():
             columns=["learned_by_pokemon", "move_id", "move_name", "move_accuracy"],
         )
 
-        csv_buffer = io.StringIO()
-        df.to_csv(csv_buffer, index=False)
-        csv_data = csv_buffer.getvalue().encode()
+        return df
 
-        s3.put_object(
-            Bucket=aws_s3_bucket,
-            Key="data/pokemon_moves.csv",
-            Body=csv_data,
-        )
     else:
         print(f"Error: HTTP status code {response.status_code}")
 
 
-def extract_habitats():
+@task(retries=3)
+def extract_habitats() -> pd.DataFrame:
     # retrieve the data from the API
     url = "https://pokeapi.co/api/v2/pokemon-habitat?limit=3000"
     response = requests.get(url, timeout=1000)
@@ -187,21 +137,14 @@ def extract_habitats():
         # create a DataFrame from the data
         df = pd.DataFrame(habitat_list)
 
-        csv_buffer = io.StringIO()
-        df.to_csv(csv_buffer, index=False)
-        csv_data = csv_buffer.getvalue().encode()
-
-        s3.put_object(
-            Bucket=aws_s3_bucket,
-            Key="data/pokemon_habitats.csv",
-            Body=csv_data,
-        )
+        return df
 
     else:
         print(f"Error: HTTP status code {response.status_code}")
 
 
-def extract_base_stats():
+@task(retries=3)
+def extract_base_stats() -> pd.DataFrame:
     url = "https://pokeapi.co/api/v2/pokemon?limit=10000"
     response = requests.get(url, timeout=1000)
     if response.status_code == 200:
@@ -228,67 +171,40 @@ def extract_base_stats():
         # create a DataFrame from the data
         df = pd.DataFrame(pokemon_list)
 
-        csv_buffer = io.StringIO()
-        df.to_csv(csv_buffer, index=False)
-        csv_data = csv_buffer.getvalue().encode()
-
-        s3.put_object(
-            Bucket=aws_s3_bucket,
-            Key="data/pokemon_base_stats.csv",
-            Body=csv_data,
-        )
+        return df
 
     else:
         print(f"Error: HTTP status code {response.status_code}")
 
 
-pokemon_extract = PythonOperator(
-    task_id="extract_pokemon",
-    python_callable=extract_pokemon,
-    dag=dag,
-)
-pokemon_extract.doc_md = "Extract Pokemon Information from PokeAPI"
+@task()
+def write_gcs(df: pd.DataFrame, path: Path) -> None:
+    """Convert dataframe to parquet snappy and Upload to GCS"""
+    gcp_cloud_storage_bucket_block = GcsBucket.load("gcs-bucket")
+    gcp_cloud_storage_bucket_block.upload_from_dataframe(
+        df=df, to_path=path, serialization_format="parquet_snappy"
+    )
+    return
 
-generations_extract = PythonOperator(
-    task_id="extract_generations",
-    python_callable=extract_generations,
-    dag=dag,
-)
-generations_extract.doc_md = "Extract Pokemon Generations from PokeAPI"
 
-moves_extract = PythonOperator(
-    task_id="extract_moves",
-    python_callable=extract_moves,
-    dag=dag,
-)
-moves_extract.doc_md = "Extract Pokemon Moves from PokeAPI"
+@flow()
+def etl_web_to_gcs() -> None:
+    """The main ETL function"""
+    df_pokemon = extract_pokemon()
+    write_gcs(df_pokemon, "data/pokemon_info")
 
-habitats_export = PythonOperator(
-    task_id="extract_habitats",
-    python_callable=extract_habitats,
-    dag=dag,
-)
-habitats_export.doc_md = "Extract Pokemon Habitats from PokeAPI"
+    df_generations = extract_generations()
+    write_gcs(df_generations, "data/pokemon_generations")
 
-base_stats_export = PythonOperator(
-    task_id="extract_base_stats",
-    python_callable=extract_base_stats,
-    dag=dag,
-)
-base_stats_export.doc_md = "Extract Pokemon Base Stats from PokeAPI"
+    df_moves = extract_moves()
+    write_gcs(df_moves, "data/pokemon_moves")
 
-copy_to_redshift = BashOperator(
-    task_id="copy_to_redshift",
-    bash_command="python /workspaces/data-engineer-zoomcamp-project/airflow/scripts/upload_aws_redshift_etl.py",
-    dag=dag,
-)
-copy_to_redshift.doc_md = "Copy S3 CSV file to Redshift tables"
+    df_habitats = extract_habitats()
+    write_gcs(df_habitats, "data/pokemon_habitats")
 
-(
-    pokemon_extract
-    >> generations_extract
-    >> moves_extract
-    >> habitats_export
-    >> base_stats_export
-    >> copy_to_redshift
-)
+    df_base_stats = extract_base_stats()
+    write_gcs(df_base_stats, "data/pokemon_base_stats")
+
+
+if __name__ == "__main__":
+    etl_web_to_gcs()

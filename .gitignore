@@ -13,3 +13,12 @@ dbt_packages/
 logs/
 # end dbt Cloud content
 dbt/profiles.yml
+
+# Default .gitignore content from terraform
+terraform/.terraform
+terraform/.terraform.lock.hcl
+
+dagster-project/dagster_project/__pycache__
+prefect/flows/.env
+terraform/terraform.tfstate
+notebooks/dags_tests.ipynb
