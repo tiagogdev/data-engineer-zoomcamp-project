@@ -30,7 +30,7 @@ As this project looks at MTG from a meta-perspective we are diving into the foll
 
 <p align="left">
 <img src="images/looker_dashboard_example.png" width="600">
-<img src="images/charizard.jpeg" height="400">
+<img src="images/charizard.png" height="400">
 </p>
 
 ## How to make it work?
