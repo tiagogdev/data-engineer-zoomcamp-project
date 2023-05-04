@@ -34,14 +34,17 @@ As this project looks at MTG from a meta-perspective we are diving into the foll
 </p>
 
 ## How to make it work?
-1. Setup your Google Cloud environment
-   - Create a [Google Cloud Platform project](https://console.cloud.google.com/cloud-resource-manager)
-   - Configure Identity and Access Management (IAM) for the service account, giving it the following privileges: BigQuery Admin, Storage Admin and Storage Object Admin
-   - Download the JSON credentials and save it, e.g. to `~/.gc/<credentials>`
-   - Open Visual Studio Code and **click Ctrl+Shift+P** to bring you directly to the editor commands and search **Open Folder in Container** and select the project folder. This will load all the necessary dependencies for the correct functioning of the project:
+1. Setup your environment
+ - Install [Docker](https://www.docker.com/products/docker-desktop/) in your machine (I'm using Windows 11)
+ - Run Docker after installation is complete  
+ - Open Visual Studio Code and **click Ctrl+Shift+P** to bring you directly to the editor commands and search **Open Folder in Container** and select the project folder. This will load all the necessary dependencies for the correct functioning of the project (It will take a few minutes):
 
     ![](images/tutorial_1.png)
 
+2. Setup your Google Cloud environment
+   - Create a [Google Cloud Platform project](https://console.cloud.google.com/cloud-resource-manager)
+   - Configure Identity and Access Management (IAM) for the service account, giving it the following privileges: BigQuery Admin, Storage Admin and Storage Object Admin
+   - Download the JSON credentials and save it to `~/.google/credentials/google_credentials.json` (It has to be this location because it will be used in terraform)
    - Let the [environment variable point to your GCP key](https://cloud.google.com/docs/authentication/application-default-credentials#GAC), authenticate it and refresh the session token
     ```bash
     export GOOGLE_APPLICATION_CREDENTIALS=<path_to_your_credentials>.json
@@ -49,7 +52,7 @@ As this project looks at MTG from a meta-perspective we are diving into the foll
     gcloud auth application-default login
     ```
 
-2. Setup your infrastructure
+3. Setup your infrastructure
    - Assuming you are using Linux AMD64 run the following commands to install Terraform - if you are using a different OS please choose the correct version [here](https://developer.hashicorp.com/terraform/downloads) and exchange the download link and zip file name
 
    ```bash
@@ -66,20 +69,37 @@ As this project looks at MTG from a meta-perspective we are diving into the foll
    terraform plan -var="project=<your-gcp-project-id>"
    terraform apply -var="project=<your-gcp-project-id>"
    ```
-3. Setup your orchestration
+4. Setup your orchestration
    - If you do not have a prefect workspace, sign-up for the prefect cloud and create a workspace [here](https://app.prefect.cloud/auth/login)
+   - Run ```prefect cloud login``` and choose "Log in with a web browser"
    - Create the [prefect blocks](https://docs.prefect.io/concepts/blocks/) via the cloud UI (GcpCredentials and GcsBucket)
    - Adjust the keyfile location at `dbt/profiles.yml` to the path of your Google Cloud credentials JSON
     ```
     nano ~/.dbt/profiles.yml
     ```
-   - To execute the flow, run the following commands in two different CL terminals
-   ```bash
-   prefect agent start -q 'default'
+    Example:
+    ```bash
+   default:
+      target: dev
+      outputs:
+         dev:
+            type: bigquery
+            method: service-account
+            project: <your-gcp-project-id>
+            dataset: <your-gcp-dataset-name>
+            threads: 1
+            keyfile: <path_to_your_credentials>.json
+            timeout_seconds: 300
    ```
+   - To execute the flow, run the following commands in two different CL terminals
    ```bash
    python prefect/flows/pokeapi_to_gcp.py
    ```
    ```bash
    python prefect/flows/upload_to_bq.py
+   ```
+   - Go to dbt folder ```cd dbt_pokemon/```
+   - Execute the following command:
+   ```bash
+      dbt run --vars 'is_test_run: false'
    ```
